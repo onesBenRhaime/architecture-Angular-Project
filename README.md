@@ -29,4 +29,4 @@ The client section is designed for end-users or customers. It includes features 
 
 The project structure follows Angular CLI conventions with additional directories for better organization:
 
-ones ben rhaime
+
