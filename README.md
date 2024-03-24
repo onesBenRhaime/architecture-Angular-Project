@@ -1,27 +1,30 @@
-# viergeproject
+# Angular Project Architecture
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+## Description
 
-## Development server
+This project is an Angular application that serves as a platform for both an admin and a client interface.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Architecture Overview
 
-## Code scaffolding
+The project follows a modular architecture with a clear separation between the admin and client sections.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Admin Section
 
-## Build
+The admin section is designed for administrative tasks and user management. It includes features such as:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- User management (CRUD operations)
+- Dashboard for analytics
+- Settings panel for configurations
 
-## Running unit tests
+### Client Section
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The client section is designed for end-users or customers. It includes features such as:
 
-## Running end-to-end tests
+- Product listings
+- Shopping cart
+- Checkout process
+- User authentication and profile management
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project Structure
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The project structure follows Angular CLI conventions with additional directories for better organization:
